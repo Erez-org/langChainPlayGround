@@ -19,7 +19,9 @@ llm_chain = LLMChain(
     memory=memory,
 )
 
-response = llm_chain.predict(human_input="Hi there I'm Erez from Langchain")
+response = llm_chain.predict(human_input="Hi there I'm Erez from Israel")
 print(response)
-response = llm_chain.predict(human_input="Who am I and where I'm from?")
+response = llm_chain.predict(human_input="Who am?")
+print(response)
+response = llm_chain.predict(human_input="Where I'm from?")
 print(response)
