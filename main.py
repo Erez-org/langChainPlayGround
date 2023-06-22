@@ -29,3 +29,7 @@ response = llm_chain.predict(human_input="I like playing with some AI based mode
 print(response)
 response = llm_chain.predict(human_input="Which model are you?")
 print(response)
+response = llm_chain.predict(human_input="What is the name of the NLP model you are using?")
+print(response)
+response = llm_chain.predict(human_input="When was that model released?")
+print(response)
